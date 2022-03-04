@@ -5,6 +5,6 @@ button.addEventListener('click', () => {
         req.onload = function (event) {
               paragraph.innerText = req.responseText;
         };
-        req.open('get', 'ajax_info.html');
+        req.open('get', 'ajax_info.html',true);
         req.send();
 });
